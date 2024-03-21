@@ -1,0 +1,27 @@
+.floating>input::placeholder {
+  color: transparent;
+}
+
+.floating>input:focus,
+.floating>input:not(:placeholder-shown) {
+  @apply pt-4;
+}
+
+.floating>input:focus~label,
+.floating>input:not(:placeholder-shown)~label {
+  @apply opacity-75 scale-75 -translate-y-3 translate-x-1;
+}
+
+.floating>select::placeholder {
+  color: transparent;
+}
+
+.floating>select:focus,
+.floating>select:not(:placeholder-shown) {
+  @apply pt-4;
+}
+
+.floating>select:focus~label,
+.floating>select:not(:placeholder-shown)~label {
+  @apply opacity-75 scale-75 -translate-y-3 translate-x-1;
+}

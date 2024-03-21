@@ -1,0 +1,46 @@
+.banner .swiper {
+  width: 100% !important;
+  aspect-ratio: 1240/460;
+}
+
+.banner .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .swiper-pagination {
+  margin: auto;
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.banner .swiper-pagination-bullet {
+  flex: 0 1 auto !important;
+  height: 4px;
+  width: 100%;
+  border-radius: 0 !important;
+  background: #ffffffec;
+  margin: 0 !important;
+  border-radius: 8px !important;
+}
+
+.banner .swiper-pagination-bullet-active {
+  background: #ffffffb9;
+}
+
+.banner .swiper-button-prev {
+  color: #ffffffb9;
+}
+
+.banner .swiper-button-next {
+  color: #ffffffb9;
+}

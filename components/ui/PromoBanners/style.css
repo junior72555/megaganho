@@ -1,0 +1,5 @@
+.dark-arrow {
+    background-image: url('./bgArrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,6 +1,6 @@
 import { NextResponse, NextRequest } from 'next/server';
 import { getCookie } from 'cookies-next';
-
+//
 export function middleware(request: NextRequest, responseh: NextResponse) {
   const { pathname } = request.nextUrl;
   const ref = request.nextUrl.searchParams.get('ref')

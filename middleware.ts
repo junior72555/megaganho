@@ -2,6 +2,7 @@ import { NextResponse, NextRequest } from 'next/server';
 import { getCookie } from 'cookies-next';
 
 export function middleware(request: NextRequest, responseh: NextResponse) {
+  console.log('')
   const { pathname } = request.nextUrl;
   const ref = request.nextUrl.searchParams.get('ref')
   const authToken = request.nextUrl.searchParams.get('auth-token')
